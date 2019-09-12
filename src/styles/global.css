@@ -10,3 +10,107 @@ body {
   @apply leading-normal;
   @apply tracking-normal;
 }
+
+/* Headings */
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5 {
+  @apply py-2;
+  @apply font-sans;
+  @apply font-semibold;
+}
+
+.markdown-content h1 {
+  @apply text-3xl;
+}
+
+.markdown-content h2 {
+  @apply text-2xl;
+}
+
+.markdown-content h3 {
+  @apply text-xl;
+}
+
+.markdown-content h4 {
+  @apply text-lg;
+}
+
+.markdown-content h5 {
+  @apply text-base;
+}
+
+@screen md {
+  .markdown-content h1 {
+    @apply text-4xl;
+  }
+  
+  .markdown-content h2 {
+    @apply text-3xl;
+  }
+  
+  .markdown-content h3 {
+    @apply text-2xl;
+  }
+  
+  .markdown-content h4 {
+    @apply text-xl;
+  }
+  
+  .markdown-content h5 {
+    @apply text-lg;
+  }
+}
+
+/* Text */
+
+.markdown-content p {
+  @apply py-6;
+}
+
+.markdown-content blockquote {
+  @apply border-l-4;
+  @apply border-teal-500;
+  @apply italic;
+  @apply my-8;
+  @apply pl-8;
+}
+
+.markdown-content blockquote p {
+  @apply py-0;
+}
+
+@screen md {
+  .markdown-content blockquote {
+    @apply pl-12;
+  }
+}
+
+/* Lists */
+
+.markdown-content ol,
+.markdown-content ul {
+  @apply list-inside;
+}
+
+.markdown-content ol {
+  @apply list-decimal;
+}
+
+.markdown-content ul {
+  @apply list-disc;
+}
+
+.markdown-content li {
+  @apply py-2;
+}
+
+@screen md {
+  .markdown-content ol,
+  .markdown-content ul {
+    @apply list-outside;
+  }
+}

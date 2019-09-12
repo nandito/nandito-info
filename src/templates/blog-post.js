@@ -18,23 +18,22 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <article>
-          <header>
-            <h1
-              style={{
-                marginBottom: 0,
-              }}
-            >
-              {post.frontmatter.title}
-            </h1>
-            <p
-              style={{
-                display: `block`,
-              }}
-            >
+          <header className="text-center pt-16 md:pt-32">
+            <p className="text-sm md:text-base text-teal-500 font-bold">
               {post.frontmatter.date}
             </p>
+
+            <h1 className="font-bold break-normal text-3xl md:text-5xl">
+              {post.frontmatter.title}
+            </h1>
           </header>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+
+          <div className="container max-w-5xl mx-auto">
+            <section
+              className="markdown-content bg-white w-full p-8 md:p-24 text-gray-800 leading-normal"
+              dangerouslySetInnerHTML={{ __html: post.html }}
+            />
+          </div>
           <hr />
           <footer>
             <Bio />
