@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Img from "gatsby-image"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -17,25 +18,34 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+
         <article>
-          <header>
-            <h1
-              style={{
-                marginBottom: 0,
-              }}
-            >
-              {post.frontmatter.title}
-            </h1>
-            <p
-              style={{
-                display: `block`,
-              }}
-            >
+          <header className="text-center mb-8 pt-12 md:pt-20">
+            <p className="text-sm md:text-base text-teal-500 font-bold">
               {post.frontmatter.date}
             </p>
+
+            <h1 className="font-bold break-normal text-3xl md:text-5xl">
+              {post.frontmatter.title}
+            </h1>
           </header>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <hr />
+
+          {post.frontmatter.cover && (
+            <div className="mb-4 md:-mb-32 md:-mx-6">
+              <Img
+                className="container w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded z-0"
+                fluid={post.frontmatter.cover.childImageSharp.fluid}
+              />
+            </div>
+          )}
+
+          <div className="container max-w-5xl mx-auto relative">
+            <section
+              className="markdown-content bg-white w-full p-8 md:p-24 text-gray-800 leading-normal"
+              dangerouslySetInnerHTML={{ __html: post.html }}
+            />
+          </div>
+
           <footer>
             <Bio />
           </footer>
@@ -43,26 +53,24 @@ class BlogPostTemplate extends React.Component {
 
         <nav>
           <ul
-            style={{
-              display: `flex`,
-              flexWrap: `wrap`,
-              justifyContent: `space-between`,
-              listStyle: `none`,
-              padding: 0,
-            }}
+            className="container max-w-5xl bg-white flex flex-wrap justify-between mx-auto my-8 p-0"
           >
             <li>
               {previous && (
-                <Link to={previous.fields.slug} rel="prev">
-                  ← {previous.frontmatter.title}
-                </Link>
+                <div className="p-8">
+                  <Link to={previous.fields.slug} rel="prev">
+                    ← {previous.frontmatter.title}
+                  </Link>
+                </div>
               )}
             </li>
             <li>
               {next && (
-                <Link to={next.fields.slug} rel="next">
-                  {next.frontmatter.title} →
-                </Link>
+                <div className="p-8 text-right">
+                  <Link to={next.fields.slug} rel="next">
+                    {next.frontmatter.title} →
+                  </Link>
+                </div>
               )}
             </li>
           </ul>
@@ -90,6 +98,13 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        cover {
+          childImageSharp {
+            fluid(maxWidth: 1920) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
