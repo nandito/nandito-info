@@ -45,13 +45,14 @@ const Bio = () => {
         </p>
 
         <p className="text-grey-dark text-xs md:text-base">
-          who lives and works in San Francisco building useful things.
+          Front-end developer working at Loop Global,
+          lover of all things countryside, life-long learner with a passion for IT and woodworking.
           {' '}
           <a
-            className="text-grey-darkest hover:text-teal no-underline border-b-2 border-teal"
+            className="text-gray-900 no-underline border-b-2 border-teal-500 hover:text-teal-500 no-underline"
             href={`https://twitter.com/${social.twitter}`}
           >
-              You should follow him on Twitter
+              Find him on Twitter.
           </a>
         </p>
       </div>
