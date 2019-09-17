@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
-    const { author, title: siteTitle } = data.site.siteMetadata
+    const { author, title: siteTitle, description } = data.site.siteMetadata
     const posts = data.allMarkdownRemark.edges
 
     return (
@@ -31,13 +31,22 @@ class BlogIndex extends React.Component {
                 />
               </div>
 
-              <Link
-                className="text-white font-extrabold text-3xl md:text-5xl relative z-20"
-                style={{ textShadow: '1px 1px 2px rgba(1, 1, 1, 0.7)' }}
-                to={`/`}
-              >
-                {siteTitle}
-              </Link>
+              <div className="text-center">
+                <Link
+                  className="text-white font-extrabold text-3xl md:text-5xl relative z-20"
+                  style={{ textShadow: '1px 1px 2px rgba(1, 1, 1, 0.7)' }}
+                  to={`/`}
+                >
+                  {siteTitle}
+                </Link>
+
+                <p
+                  className="text-white text-lg md:text-xl relative z-20"
+                  style={{ textShadow: '1px 1px 2px rgba(1, 1, 1, 0.7)' }}
+                >
+                  {description}
+                </p>
+              </div>
             </div>
 
             <div className="-mt-32 relative z-30">
@@ -203,6 +212,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         author
+        description
         title
       }
     }
