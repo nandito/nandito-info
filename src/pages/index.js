@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
+    const { author, title: siteTitle } = data.site.siteMetadata
     const posts = data.allMarkdownRemark.edges
 
     return (
@@ -125,13 +125,16 @@ class BlogIndex extends React.Component {
                     className="flex flex-wrap no-underline hover:no-underline"
                     to={node.fields.slug}
                   >
-                    <img
-                      alt={node.frontmatter.title}
-                      className="h-64 w-full rounded-t pb-6 object-cover"
-                      src="https://source.unsplash.com/collection/225/800x600"
-                    />
+                    {node.frontmatter.cover && (
+                      <div className="h-64 w-full rounded-t object-cover overflow-hidden">
+                        <Img
+                          className="h-full"
+                          fluid={node.frontmatter.cover.childImageSharp.fluid}
+                        />
+                      </div>
+                    )}
 
-                    <p className="w-full text-gray-600 text-xs md:text-sm px-6">
+                    <p className="w-full text-gray-600 text-xs md:text-sm px-6 pt-6">
                       {node.frontmatter.date}
                     </p>
 
@@ -155,11 +158,10 @@ class BlogIndex extends React.Component {
                   rounded-t-none overflow-hidden shadow-lg p-6
                 ">
                   <div className="flex items-center justify-between">
-                    <img
+                    <Img
+                      alt={author}
                       className="w-8 h-8 rounded-full mr-4 avatar"
-                      data-tippy-content="Author Name"
-                      src="http://i.pravatar.cc/300"
-                      alt="Avatar of Author"
+                      fixed={data.avatar.childImageSharp.fixed}
                     />
 
                     <p className="text-gray-600 text-xs md:text-sm">
@@ -191,8 +193,16 @@ export const pageQuery = graphql`
         }
       }
     }
+    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      childImageSharp {
+        fixed(width: 32, height: 32) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
     site {
       siteMetadata {
+        author
         title
       }
     }
@@ -207,6 +217,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 1200) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           timeToRead
         }

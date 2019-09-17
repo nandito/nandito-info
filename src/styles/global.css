@@ -68,7 +68,18 @@ body {
 /* Text */
 
 .markdown-content p {
-  @apply py-6;
+  @apply py-4;
+}
+
+.markdown-content a {
+  @apply text-gray-900;
+  @apply no-underline;
+  @apply border-b-2;
+  @apply border-teal-500;
+}
+
+.markdown-content a:hover {
+  @apply text-teal-500;
 }
 
 .markdown-content blockquote {
