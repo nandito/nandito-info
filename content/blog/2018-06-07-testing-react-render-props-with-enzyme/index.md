@@ -159,4 +159,4 @@ it('renders the title on the proper language', () => {
 })
 ```
 
-[You can find the code on GitHub](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#testing-components).
+[You can find the code on GitHub](https://github.com/nandito/react-test).
