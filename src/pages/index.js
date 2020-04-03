@@ -9,7 +9,8 @@ class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const { author, title: siteTitle, description } = data.site.siteMetadata
-    const posts = data.allMarkdownRemark.edges
+    const posts = data.blog.edges
+    const pages = data.pages.edges
 
     return (
       <Layout
@@ -54,14 +55,16 @@ class BlogIndex extends React.Component {
                 <div className="container mx-auto flex items-center">
                   <div className="flex w-1/2 pl-4 text-sm">
                     <ul className="list-reset flex justify-between flex-1 md:flex-none items-center">
-                      <li className="mr-2">
-                        <a
-                          className="inline-block py-2 px-2 text-white no-underline hover:underline"
-                          href="post.html"
-                        >
-                          POSTS
-                        </a>
-                      </li>
+                      {pages.map(({ node }) => (
+                        <li className="mr-2 uppercase" key={node.fields.slug}>
+                          <Link
+                            className="inline-block py-2 px-2 text-white no-underline hover:underline"
+                            to={node.fields.slug}
+                          >
+                            {node.frontmatter.title}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </div>
 
@@ -216,7 +219,24 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    pages: allMarkdownRemark(
+      filter: { fields: { collection: { eq: "pages" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+    blog: allMarkdownRemark(
+      filter: { fields: { collection: { eq: "blog" } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           excerpt
