@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from 'gatsby'
 import Header from './header'
 import '../styles/global.css'
 
@@ -17,19 +18,42 @@ class Layout extends React.Component {
         </main>
 
         <footer className="bg-gray-900">
-          <div className="container mx-auto flex items-center px-2 py-8">
-            <div className="w-full mx-auto flex flex-wrap items-center">
-              <div className="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
-                <a
-                  className="text-gray-900 no-underline hover:text-gray-900 hover:no-underline"
-                  href="https://www.gatsbyjs.org"
-                >
-                  <span className="text-base text-gray-200">
-                    © {new Date().getFullYear()}, Built with Gatsby & Tailwind CSS
-                  </span>
+          <div className="container mx-auto flex flex-wrap items-center space-between px-2 py-8">
+            <div className="w-full md:w-1/2 text-white text-center md:text-left">
+              <span className="text-base text-gray-200">
+                © {new Date().getFullYear()}, Built with
+                {' '}
+                <a className="no-underline hover:underline" href="https://www.gatsbyjs.org">
+                  Gatsby
                 </a>
-              </div>
+                {' & '}
+                <a className="no-underline hover:underline" href="https://tailwindcss.com/">
+                  Tailwind CSS
+                </a>
+              </span>
             </div>
+
+            <ul
+              className="flex-1 flex justify-center md:justify-end mt-3 md:mt-0"
+            >
+              <li>
+                <Link
+                  className="text-white hover:underline mr-4"
+                  to="/rss.xml"
+                >
+                  RSS Feed
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  className="text-white hover:underline"
+                  to="/sitemap.xml"
+                >
+                  Sitemap
+                </Link>
+              </li>
+            </ul>
           </div>
         </footer>
       </div>
