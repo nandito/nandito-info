@@ -20,7 +20,7 @@ class BlogIndex extends React.Component {
           <div className="w-full -mb-16">
             <div
               className="container flex justify-center items-center w-full max-w-full relative"
-              style={{ height: '45vh'}}
+              style={{ height: '45vh' }}
             >
               <div className="absolute inset-0 z-10" style={{
                 background: 'linear-gradient(0deg, rgba(0,0,0,0.72) 5%, rgba(1,1,1,0.15) 45%)',
@@ -74,8 +74,8 @@ class BlogIndex extends React.Component {
                         inline-block text-gray-500 no-underline hover:text-white
                         hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 avatar
                       "
-                      data-tippy-content="@twitter_handle"
-                      href="https://twitter.com/intent/tweet?url=#"
+                      data-tippy-content="@nandito"
+                      href="https://twitter.com/nanditoDev"
                     >
                       <svg className="fill-current h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                         <path
@@ -95,23 +95,6 @@ class BlogIndex extends React.Component {
                             4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313
                             2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"
                         />
-                      </svg>
-                    </a>
-
-                    <a
-                      className="
-                        inline-block text-gray-500 no-underline hover:text-white
-                        hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 avatar
-                      "
-                      data-tippy-content="#facebook_id"
-                      href="https://www.facebook.com/sharer/sharer.php?u=#"
-                    >
-                      <svg
-                        className="fill-current h-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 32 32
-                      ">
-                        <path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z" />
                       </svg>
                     </a>
                   </div>
