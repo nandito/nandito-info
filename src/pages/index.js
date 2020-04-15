@@ -54,7 +54,7 @@ class BlogIndex extends React.Component {
               <nav className="w-full">
                 <div className="container mx-auto flex items-center">
                   <div className="flex w-1/2 pl-4 text-sm">
-                    <ul className="list-reset flex justify-between flex-1 md:flex-none items-center">
+                    <ul className="list-reset flex justify-between flex-none items-center">
                       {pages.map(({ node }) => (
                         <li className="mr-2 uppercase" key={node.fields.slug}>
                           <Link
