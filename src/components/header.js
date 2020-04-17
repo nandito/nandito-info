@@ -1,7 +1,22 @@
 import React from 'react'
-import { Link } from "gatsby"
+import { graphql, Link, useStaticQuery } from "gatsby"
 
 const Header = ({ title }) => {
+  const { allMarkdownRemark: { nodes }} = useStaticQuery(graphql`
+    {
+      allMarkdownRemark(filter: { fields: { collection: { eq: "pages" } } } ) {
+        nodes {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <nav className="bg-gray-900 p-4 mt-0 w-full">
       <div className="container mx-auto flex items-center">
@@ -17,20 +32,23 @@ const Header = ({ title }) => {
         <div className="flex pl-4 text-sm">
           <ul className="list-reset flex justify-between flex-1 md:flex-none items-center">
             <li className="mr-2">
-              <a className="inline-block py-2 px-2 text-white no-underline" href="index.html">HOME</a>
+              <Link
+                className="inline-block py-2 px-2 text-white no-underline"
+                to="/"
+              >
+                Home
+              </Link>
             </li>
-            <li className="mr-2">
-              <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2"
-                href="#">LINK</a>
-            </li>
-            <li className="mr-2">
-              <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2"
-                href="#">LINK</a>
-            </li>
-            <li className="mr-2">
-              <a className="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-2"
-                href="#">LINK</a>
-            </li>
+            {nodes.map(page => (
+              <li className="mr-2" key={page.fields.slug}>
+                <Link
+                  className="inline-block py-2 px-2 text-white no-underline"
+                  to={page.fields.slug}
+                >
+                  {page.frontmatter.title}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

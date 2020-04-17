@@ -8,8 +8,9 @@ import SEO from "../components/seo"
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+    const { author, title: siteTitle, description } = data.site.siteMetadata
+    const posts = data.blog.edges
+    const pages = data.pages.edges
 
     return (
       <Layout
@@ -19,7 +20,7 @@ class BlogIndex extends React.Component {
           <div className="w-full -mb-16">
             <div
               className="container flex justify-center items-center w-full max-w-full relative"
-              style={{ height: '45vh'}}
+              style={{ height: '45vh' }}
             >
               <div className="absolute inset-0 z-10" style={{
                 background: 'linear-gradient(0deg, rgba(0,0,0,0.72) 5%, rgba(1,1,1,0.15) 45%)',
@@ -31,28 +32,39 @@ class BlogIndex extends React.Component {
                 />
               </div>
 
-              <Link
-                className="text-white font-extrabold text-3xl md:text-5xl relative z-20"
-                style={{ textShadow: '1px 1px 2px rgba(1, 1, 1, 0.7)' }}
-                to={`/`}
-              >
-                {siteTitle}
-              </Link>
+              <div className="text-center">
+                <Link
+                  className="text-white font-extrabold text-3xl md:text-5xl relative z-20"
+                  style={{ textShadow: '1px 1px 2px rgba(1, 1, 1, 0.7)' }}
+                  to={`/`}
+                >
+                  {siteTitle}
+                </Link>
+
+                <p
+                  className="text-white text-lg md:text-xl relative z-20"
+                  style={{ textShadow: '1px 1px 2px rgba(1, 1, 1, 0.7)' }}
+                >
+                  {description}
+                </p>
+              </div>
             </div>
 
             <div className="-mt-32 relative z-30">
               <nav className="w-full">
                 <div className="container mx-auto flex items-center">
                   <div className="flex w-1/2 pl-4 text-sm">
-                    <ul className="list-reset flex justify-between flex-1 md:flex-none items-center">
-                      <li className="mr-2">
-                        <a
-                          className="inline-block py-2 px-2 text-white no-underline hover:underline"
-                          href="post.html"
-                        >
-                          POSTS
-                        </a>
-                      </li>
+                    <ul className="list-reset flex justify-between flex-none items-center">
+                      {pages.map(({ node }) => (
+                        <li className="mr-2 uppercase" key={node.fields.slug}>
+                          <Link
+                            className="inline-block py-2 px-2 text-white no-underline hover:underline"
+                            to={node.fields.slug}
+                          >
+                            {node.frontmatter.title}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </div>
 
@@ -62,8 +74,8 @@ class BlogIndex extends React.Component {
                         inline-block text-gray-500 no-underline hover:text-white
                         hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 avatar
                       "
-                      data-tippy-content="@twitter_handle"
-                      href="https://twitter.com/intent/tweet?url=#"
+                      data-tippy-content="@nandito"
+                      href="https://twitter.com/nanditoDev"
                     >
                       <svg className="fill-current h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                         <path
@@ -83,23 +95,6 @@ class BlogIndex extends React.Component {
                             4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313
                             2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"
                         />
-                      </svg>
-                    </a>
-
-                    <a
-                      className="
-                        inline-block text-gray-500 no-underline hover:text-white
-                        hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 avatar
-                      "
-                      data-tippy-content="#facebook_id"
-                      href="https://www.facebook.com/sharer/sharer.php?u=#"
-                    >
-                      <svg
-                        className="fill-current h-4"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 32 32
-                      ">
-                        <path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z" />
                       </svg>
                     </a>
                   </div>
@@ -125,13 +120,16 @@ class BlogIndex extends React.Component {
                     className="flex flex-wrap no-underline hover:no-underline"
                     to={node.fields.slug}
                   >
-                    <img
-                      alt={node.frontmatter.title}
-                      className="h-64 w-full rounded-t pb-6 object-cover"
-                      src="https://source.unsplash.com/collection/225/800x600"
-                    />
+                    {node.frontmatter.cover && (
+                      <div className="h-64 w-full rounded-t object-cover overflow-hidden">
+                        <Img
+                          className="h-full"
+                          fluid={node.frontmatter.cover.childImageSharp.fluid}
+                        />
+                      </div>
+                    )}
 
-                    <p className="w-full text-gray-600 text-xs md:text-sm px-6">
+                    <p className="w-full text-gray-600 text-xs md:text-sm px-6 pt-6">
                       {node.frontmatter.date}
                     </p>
 
@@ -155,11 +153,10 @@ class BlogIndex extends React.Component {
                   rounded-t-none overflow-hidden shadow-lg p-6
                 ">
                   <div className="flex items-center justify-between">
-                    <img
+                    <Img
+                      alt={author}
                       className="w-8 h-8 rounded-full mr-4 avatar"
-                      data-tippy-content="Author Name"
-                      src="http://i.pravatar.cc/300"
-                      alt="Avatar of Author"
+                      fixed={data.avatar.childImageSharp.fixed}
                     />
 
                     <p className="text-gray-600 text-xs md:text-sm">
@@ -191,12 +188,38 @@ export const pageQuery = graphql`
         }
       }
     }
+    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      childImageSharp {
+        fixed(width: 32, height: 32) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
     site {
       siteMetadata {
+        author
+        description
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    pages: allMarkdownRemark(
+      filter: { fields: { collection: { eq: "pages" } } }
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+    blog: allMarkdownRemark(
+      filter: { fields: { collection: { eq: "blog" } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           excerpt
@@ -207,6 +230,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 1200) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
           timeToRead
         }
