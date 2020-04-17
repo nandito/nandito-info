@@ -29,15 +29,11 @@ SIM-kártya foglalattal rendelkeznek, így ha beleteszünk egy Internet-előfize
 
 ### **Motorola Xoom 3G**
 
-[![Motorola Xoom 3g](http://nandito.info/nandiction/files/2012/01/motorola-xoom-3g-300x204.jpg)](http://nandito.info/nandiction/files/2012/01/motorola-xoom-3g.jpg)
-
 **előny**: ilyen van nekem, gyors, jön rá frissítés, sokáig bírja az akkumulátor, szép kép, 32GB belső tárhely + bővíthető microSD-vel
 **hátrány**: viszonylag nehéz, nem tölthető USB-ről
 **ár**: 116 500 Ft
 
 ### Motorola Xoom 2
-
-[![Motorola Xoom 2](http://nandito.info/nandiction/files/2012/01/motorola-xoom-2-300x290.jpg)](http://nandito.info/nandiction/files/2012/01/motorola-xoom-2.jpg)
 
 **előny**: adnak hozzá Motorola Stylus-t (ceruza), 200 mhz-el nagyobb órajelű processzor az elődhöz képest, strapabíró Gorilla Glass kijelző
 **hátrány**: nagyon drága ahhoz képest, hogy nem sokkal több az 1. xoom-nál.
@@ -45,23 +41,17 @@ SIM-kártya foglalattal rendelkeznek, így ha beleteszünk egy Internet-előfize
 
 ### Archos 101 G9
 
-[![Archos 101 G9](http://nandito.info/nandiction/files/2012/01/archos-101-300x185.jpg)](http://nandito.info/nandiction/files/2012/01/archos-101.jpg)
-
 **előny**: felszereltséghez képest kedvező ár, ua felszereltség, mint a xoomnak, bővíthető tárhely (alapból 8 gb)
 **hátrány**: kevésbé ismert, új gyártó
 **ár**: 94 500 Ft
 
 ### Apple iPad 2 16Gb 3G
 
-[![Apple iPad 2](http://nandito.info/nandiction/files/2012/01/ipad2-300x138.jpg)](http://nandito.info/nandiction/files/2012/01/ipad2.jpg)
-
 **előny**: gyors, nagyon össze van rakva, könnyű, vékony, menő és kényelmes kezelés
 **hátrány**: nem lehet rá tört alkalmazást telepíteni, rátölteni dolgokat iTunessal lehet csak (azt hiszem)
 **ár**: 141 990 Ft
 
 ### Samsung Galaxy Tab 10.1 16Gb
-
-[![Samsung Galaxy Tab 10.1](http://nandito.info/nandiction/files/2012/01/samsung-galaxy-tab-300x195.jpg)](http://nandito.info/nandiction/files/2012/01/samsung-galaxy-tab.jpg)
 
 **előny**: könnyű és vékony, szokásos jó hardver
 **hátrány**: nincs USB port és SD-kártya bővítési lehetőség
@@ -73,15 +63,11 @@ Csak akkor tudunk rajta netezni, ha van a közelben Wi-Fi hotspot, amihez csatla
 
 ### Asus Transformer TF101 16Gb
 
-[![Asus Transformer TF101](http://nandito.info/nandiction/files/2012/01/asus-transformer-300x222.jpg)](http://nandito.info/nandiction/files/2012/01/asus-transformer.jpg)
-
 **előny**: lehet hozzá dokkolható billentyűzetet venni, jól bírja az akkumulátor, könnyű, jó anyagból készült, gyors
 **hátrány**: drága, ASUS magyar supportot nem nagyon dicsérik
 **ár**: 189 900 Ft
 
 ### Toshiba AT100
-
-[![Toshiba AT100](http://nandito.info/nandiction/files/2012/01/toshiba-at100-300x202.jpg)](http://nandito.info/nandiction/files/2012/01/toshiba-at100.jpg)
 
 **előny**: szinte ugyanaz a hardver, mint a xoomnak
 **ár**:  129 899 Ft
@@ -93,8 +79,6 @@ Csak akkor tudunk rajta netezni, ha van a közelben Wi-Fi hotspot, amihez csatla
 **ár**: 119 550 Ft Magyarországon, külföldön \$499
 
 ### Amazon Kindle Fire
-
-[![Amazon Kindle Fire](http://nandito.info/nandiction/files/2012/01/kindle-fire-300x170.jpg)](http://nandito.info/nandiction/files/2012/01/kindle-fire.jpg)
 
 **előny**: hardvereihez képest igen jó árban van
 **hátrány**: szerintem a 7 colos kijelző kicsi, néhány ember szerint kényelmetlen helyen van a gombja
