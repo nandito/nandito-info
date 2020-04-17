@@ -55,9 +55,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: "gatsby-plugin-ackee-tracker",
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        domainId: 'ef111b93-bd18-4a2a-bf23-5ceb2e0ad33f',
+        server: 'https://ackee.nandito.info',
+        ignoreLocalhost: true,
+        detailed: false
       },
     },
     {
