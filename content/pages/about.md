@@ -6,10 +6,10 @@ description: ""
 
 Hi,
 
-I'm Nandor Biro, Front-end developer at Loop Global. I live in Hajduszoboszlo, Hungary and work from home. 
+I'm Nandor Biro, Front-end developer at Loop Global. I live in Hajduszoboszlo, Hungary with my wife and work from home. 
 
-I like trying out new technologies and I'm also trying to reach a higher level of understanding the ones that I use frequently.
-As I believe that [Learn in public](https://www.swyx.io/speaking/learn-in-public-nyc) could make me a better developer I started this blog.
+I like trying out new technologies and I'm also trying to reach a higher level of understanding in the ones that I use frequently.
+Since I believe that [Learn in public](https://www.swyx.io/speaking/learn-in-public-nyc) can make me a better developer I started this blog.
 
 ### Contact
 

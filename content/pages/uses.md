@@ -13,7 +13,7 @@ Here's a list of my stuff!
 
 ## Browsers
 
-I like to separate development and browsing. (And separate work-related and personal searches, however it seems private mode doesn't make much difference nowadays.)
+I like to separate development and browsing. (And separate work-related and personal searches, however, it seems private mode doesn't make much difference nowadays.)
 
 * [Opera](https://www.opera.com/) for browsing
 * [Chrome](https://www.google.com/chrome/) for development
