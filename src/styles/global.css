@@ -107,6 +107,13 @@ body {
   @apply list-inside;
 }
 
+.markdown-content ol > li > ol,
+.markdown-content ol > li > ul,
+.markdown-content ul > li > ol,
+.markdown-content ul > li > ul {
+  @apply pl-4;
+}
+
 .markdown-content ol {
   @apply list-decimal;
 }

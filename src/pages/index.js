@@ -112,7 +112,7 @@ class BlogIndex extends React.Component {
 
             return (
               <article
-                className="w-full sm:w-1/2 md:w-1/3 p-6 flex flex-col flex-grow flex-shrink"
+                className="w-full p-6 flex flex-col flex-grow flex-shrink"
                 key={node.fields.slug}
               >
                 <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
@@ -121,7 +121,7 @@ class BlogIndex extends React.Component {
                     to={node.fields.slug}
                   >
                     {node.frontmatter.cover && (
-                      <div className="h-64 w-full rounded-t object-cover overflow-hidden">
+                      <div className="w-full rounded-t object-cover overflow-hidden">
                         <Img
                           className="h-full"
                           fluid={node.frontmatter.cover.childImageSharp.fluid}
