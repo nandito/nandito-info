@@ -3,7 +3,7 @@ module.exports = {
     title: `Nandito.info`,
     author: `Nandor Biro`,
     description: `JavaScript, React, GraphQL, testing, etc. blog`,
-    siteUrl: `https://nandito.netlify.com/`,
+    siteUrl: `https://nandito.info/`,
     social: {
       twitter: `nanditoDev`,
     },
