@@ -134,13 +134,13 @@ class BlogIndex extends React.Component {
                     </p>
 
                     <header className="w-full">
-                      <h3 className="w-full font-bold text-xl text-gray-900 px-6">
+                      <h3 className="w-full font-bold text-xl text-gray-900 px-6 py-2">
                         {title}
                       </h3>
                     </header>
 
                     <p
-                      className="text-gray-800 font-serif text-base px-6 mb-5"
+                      className="text-gray-800 text-base px-6 mb-5"
                       dangerouslySetInnerHTML={{
                         __html: node.frontmatter.description || node.excerpt,
                       }}
