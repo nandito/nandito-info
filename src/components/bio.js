@@ -45,7 +45,7 @@ const Bio = () => {
         </p>
 
         <p className="text-grey-dark text-xs md:text-base">
-          Front-end developer working at Loop Global,
+          Software Engineer working at Whereby,
           lover of all things countryside, life-long learner with a passion for IT and woodworking.
           {' '}
           <a
