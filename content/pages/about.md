@@ -1,12 +1,12 @@
 ---
 title: About
-date: "2020-04-14T20:50:00.000Z"
+date: "2020-12-04T05:18:50.172Z"
 description: ""
 ---
 
 Hi,
 
-I'm Nandor Biro, Front-end developer at Loop Global. I live in Hajduszoboszlo, Hungary with my wife and work from home. 
+I'm Nandor Biro, Software Engineer at [Whereby](https://whereby.com). I live in Hajduszoboszlo, Hungary with my wife and work from home. 
 
 I like trying out new technologies and I'm also trying to reach a higher level of understanding in the ones that I use frequently.
 Since I believe that [Learn in public](https://www.swyx.io/speaking/learn-in-public-nyc) can make me a better developer I started this blog.

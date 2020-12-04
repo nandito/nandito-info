@@ -1,6 +1,6 @@
 ---
 title: Uses
-date: "2020-04-02T18:50:00.000Z"
+date: "2020-12-04T05:18:50.172Z"
 description: ""
 ---
 
@@ -19,6 +19,7 @@ I like to separate development and browsing. (And separate work-related and pers
 * [Chrome](https://www.google.com/chrome/) for development
 * [Epic](https://www.epicbrowser.com/) when I'm paranoid
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/) for news reading
+* [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/) for development
 
 ### Chrome extensions
 
@@ -34,7 +35,6 @@ I like to separate development and browsing. (And separate work-related and pers
 
 ## Desktop Apps
 
-* Adobe [Illustrator](https://www.adobe.com/products/illustrator.html), [Lightroom](https://www.adobe.com/products/photoshop-lightroom.html), [Photoshop](https://www.adobe.com/products/photoshop.html), [Premiere Pro](https://www.adobe.com/hu/products/premiere.html), [XD](https://www.adobe.com/products/xd.html)
 * [Amethyst](https://ianyh.com/amethyst/)
 * [Boostnote](https://boostnote.io/)
 * [Figma](https://www.figma.com/)
@@ -53,7 +53,6 @@ I like to separate development and browsing. (And separate work-related and pers
 * [TunnelBear](https://www.tunnelbear.com/)
 * [VirtualBox](https://www.virtualbox.org/)
 * [VLC](https://www.videolan.org/vlc/index.html)
-* [zoom.us](https://zoom.us/)
 
 ## CLIs
 
@@ -65,7 +64,6 @@ Here are the non-trivial ones:
 * [cheat](https://github.com/cheat/cheat)
 * [navi](https://github.com/denisidoro/navi)
 * [npx](https://www.npmjs.com/package/npx)
-* [foreman](https://github.com/ddollar/foreman)
 
 Some of the trivial ones:
 
@@ -78,13 +76,14 @@ Some of the trivial ones:
 
 ## Desk Setup
 
-* MacBook Pro 2017 13-inch with touchbar: 3.1 GHz Intel Core i5; 8 GB 2133 MHz LPDDR3; 250 GB SSD
-* 2x [ASUS PB248 Display](https://www.asus.com/Monitors/PB248Q/)
+* MacBook Pro 2020 13-inch: 2.3 GHz Quad-Core Intel Core i7; 16 GB 3733 MHz LPDDR4X; 500 GB SSD
+* 2x [Philips 25" 252B9/00 display](https://www.philips.co.uk/c-p/252B9_00/lcd-monitor-with-powersensor)
 * [IKEA Skarsta adjustable desk](https://www.ikea.com/gb/en/p/skarsta-desk-sit-stand-white-s59324818/)
 * [kika Liverpool office chair](https://www.kika.hu/shop/hu/kikahu/butor/iroda/forgoszekek/liverpool*w175ac-forgoszek-fekete-23017785)
 
 ## Web Apps
 
+* [Whereby](https://whereby.com/)
 * [Tiny Tiny RSS](https://tt-rss.org/)
 * [Trello](https://trello.com/)
 * [Google Keep](https://keep.google.com/)
