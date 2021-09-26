@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2015-03-16 20:53:24+00:00
 layout: post
-link: https://nandito.info/2015/03/16/autentikacio-rails-ben-devise-gem-mel/
+link: https://nandito.hu/2015/03/16/autentikacio-rails-ben-devise-gem-mel/
 slug: autentikacio-rails-ben-devise-gem-mel
 title: Autentikáció Rails-ben Devise gem-mel
 wordpress_id: 184

@@ -1,9 +1,9 @@
 {
   "name": "nandito-info-blog",
   "private": true,
-  "description": "Nandito.info personal blog powered by Gatsby and Markdown",
+  "description": "Nandito.hu personal blog powered by Gatsby and Markdown",
   "version": "1.0.0",
-  "author": "Nandor Biro <info@nandito.info>",
+  "author": "Nandor Biro <dev@nandito.hu>",
   "bugs": {
     "url": "https://github.com/nandito/nandito-info"
   },

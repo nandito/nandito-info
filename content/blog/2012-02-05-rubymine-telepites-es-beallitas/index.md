@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2012-02-05 21:34:08+00:00
 layout: post
-link: https://nandito.info/2012/02/05/rubymine-telepites-es-beallitas/
+link: https://nandito.hu/2012/02/05/rubymine-telepites-es-beallitas/
 slug: rubymine-telepites-es-beallitas
 title: RubyMine telepítés és beállítás
 wordpress_id: 78

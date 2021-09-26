@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2015-04-12 10:17:34+00:00
 layout: post
-link: https://nandito.info/2015/04/12/lapozas-rails-ben-kaminari-val/
+link: https://nandito.hu/2015/04/12/lapozas-rails-ben-kaminari-val/
 slug: lapozas-rails-ben-kaminari-val
 title: Lapozás Rails-ben Kaminari-val
 wordpress_id: 200

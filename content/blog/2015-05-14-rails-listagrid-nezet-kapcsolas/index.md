@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2015-05-14 21:05:33+00:00
 layout: post
-link: https://nandito.info/2015/05/14/rails-listagrid-nezet-kapcsolas/
+link: https://nandito.hu/2015/05/14/rails-listagrid-nezet-kapcsolas/
 slug: rails-listagrid-nezet-kapcsolas
 title: Rails lista/grid nézet kapcsolás
 wordpress_id: 209

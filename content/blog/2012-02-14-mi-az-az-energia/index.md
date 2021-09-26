@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2012-02-14 09:16:39+00:00
 layout: post
-link: https://nandito.info/2012/02/14/mi-az-az-energia/
+link: https://nandito.hu/2012/02/14/mi-az-az-energia/
 slug: mi-az-az-energia
 title: Mi az az energia?
 wordpress_id: 96

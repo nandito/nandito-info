@@ -15,7 +15,7 @@ Since I believe that [Learn in public](https://www.swyx.io/speaking/learn-in-pub
 
 * [LinkedIn](https://www.linkedin.com/in/nandorbiro/)
 * [Twitter](https://twitter.com/nanditoDev)
-* [Email](mailto:info@nandito.info)
+* [Email](mailto:info@nandito.hu)
 * [GitHub](https://github.com/nandito)
 
 ## Blog

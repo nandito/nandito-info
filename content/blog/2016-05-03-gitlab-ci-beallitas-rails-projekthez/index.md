@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2016-05-03 21:07:39+00:00
 layout: post
-link: https://nandito.info/2016/05/03/gitlab-ci-beallitas-rails-projekthez/
+link: https://nandito.hu/2016/05/03/gitlab-ci-beallitas-rails-projekthez/
 slug: gitlab-ci-beallitas-rails-projekthez
 title: Gitlab CI beállítás Rails projekthez
 wordpress_id: 237

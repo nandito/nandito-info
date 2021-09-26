@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2012-02-17 20:54:12+00:00
 layout: post
-link: https://nandito.info/2012/02/17/ingyen-repulojegy-a-westendben/
+link: https://nandito.hu/2012/02/17/ingyen-repulojegy-a-westendben/
 slug: ingyen-repulojegy-a-westendben
 title: Ingyen repülőjegy a Westendben
 wordpress_id: 114

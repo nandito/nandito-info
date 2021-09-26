@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2015-08-09 10:28:59+00:00
 layout: post
-link: https://nandito.info/2015/08/09/legkondi-keszitese-hazilag/
+link: https://nandito.hu/2015/08/09/legkondi-keszitese-hazilag/
 slug: legkondi-keszitese-hazilag
 title: Légkondi készítése házilag
 wordpress_id: 220

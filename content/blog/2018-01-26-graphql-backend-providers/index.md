@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2018-01-26 05:48:07+00:00
 layout: post
-link: https://nandito.info/2018/01/26/graphql-backend-providers/
+link: https://nandito.hu/2018/01/26/graphql-backend-providers/
 slug: graphql-backend-providers
 title: GraphQL backend providers
 wordpress_id: 287

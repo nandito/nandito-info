@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2012-02-01 16:49:09+00:00
 layout: post
-link: https://nandito.info/2012/02/01/weboldalkeszites/
+link: https://nandito.hu/2012/02/01/weboldalkeszites/
 slug: weboldalkeszites
 title: Weboldalkészítés
 wordpress_id: 44

@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2012-05-13 17:33:37+00:00
 layout: post
-link: https://nandito.info/2012/05/13/tarsashazi-szamladij-csokkentes-odafigyelessel-2-resz/
+link: https://nandito.hu/2012/05/13/tarsashazi-szamladij-csokkentes-odafigyelessel-2-resz/
 slug: tarsashazi-szamladij-csokkentes-odafigyelessel-2-resz
 title: Társasházi számladíj-csökkentés odafigyeléssel 2. rész
 wordpress_id: 145

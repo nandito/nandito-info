@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Nandito.info`,
+    title: `Nandito.hu`,
     author: `Nandor Biro`,
     description: `JavaScript, React, GraphQL, testing, etc. blog`,
-    siteUrl: `https://nandito.info/`,
+    siteUrl: `https://nandito.hu/`,
     social: {
       twitter: `nanditoDev`,
     },
@@ -57,10 +57,10 @@ module.exports = {
     {
       resolve: "gatsby-plugin-ackee-tracker",
       options: {
-        domainId: 'ef111b93-bd18-4a2a-bf23-5ceb2e0ad33f',
-        server: 'https://ackee.nandito.info',
+        domainId: "73872517-ca91-41e6-886c-650c292d4412",
+        server: "https://ackee.nandito.hu",
         ignoreLocalhost: true,
-        detailed: false
+        detailed: false,
       },
     },
     {
@@ -101,10 +101,10 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Nandito.info's RSS Feed",
-          }
+            title: "Nandito.hu's RSS Feed",
+          },
         ],
-      }
+      },
     },
     `gatsby-plugin-sitemap`,
     {

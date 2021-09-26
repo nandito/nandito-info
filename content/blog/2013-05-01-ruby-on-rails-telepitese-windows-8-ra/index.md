@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2013-05-01 10:24:07+00:00
 layout: post
-link: https://nandito.info/2013/05/01/ruby-on-rails-telepitese-windows-8-ra/
+link: https://nandito.hu/2013/05/01/ruby-on-rails-telepitese-windows-8-ra/
 slug: ruby-on-rails-telepitese-windows-8-ra
 title: Ruby on Rails telepítése Windows 8-ra
 wordpress_id: 164
