@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2015-03-18 21:47:42+00:00
 layout: post
-link: https://nandito.info/2015/03/18/keresobarat-url-ek-rails-ben/
+link: https://nandito.hu/2015/03/18/keresobarat-url-ek-rails-ben/
 slug: keresobarat-url-ek-rails-ben
 title: Keresőbarát URL-ek Rails-ben
 wordpress_id: 193

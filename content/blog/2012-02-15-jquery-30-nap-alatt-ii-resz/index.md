@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2012-02-15 19:07:31+00:00
 layout: post
-link: https://nandito.info/2012/02/15/jquery-30-nap-alatt-ii-resz/
+link: https://nandito.hu/2012/02/15/jquery-30-nap-alatt-ii-resz/
 slug: jquery-30-nap-alatt-ii-resz
 title: jQuery 30 nap alatt II. rész
 wordpress_id: 103

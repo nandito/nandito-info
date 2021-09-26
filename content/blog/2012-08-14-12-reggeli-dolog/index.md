@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2012-08-14 20:08:53+00:00
 layout: post
-link: https://nandito.info/2012/08/14/12-reggeli-dolog/
+link: https://nandito.hu/2012/08/14/12-reggeli-dolog/
 slug: 12-reggeli-dolog
 title: 12 reggeli dolog
 wordpress_id: 152

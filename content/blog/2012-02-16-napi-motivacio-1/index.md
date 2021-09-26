@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2012-02-16 11:20:10+00:00
 layout: post
-link: https://nandito.info/2012/02/16/napi-motivacio-1/
+link: https://nandito.hu/2012/02/16/napi-motivacio-1/
 slug: napi-motivacio-1
 title: Napi motiváció 1.
 wordpress_id: 109

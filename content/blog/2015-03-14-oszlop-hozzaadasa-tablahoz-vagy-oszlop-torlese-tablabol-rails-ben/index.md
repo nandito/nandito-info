@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2015-03-14 20:24:41+00:00
 layout: post
-link: https://nandito.info/2015/03/14/oszlop-hozzaadasa-tablahoz-vagy-oszlop-torlese-tablabol-rails-ben/
+link: https://nandito.hu/2015/03/14/oszlop-hozzaadasa-tablahoz-vagy-oszlop-torlese-tablabol-rails-ben/
 slug: oszlop-hozzaadasa-tablahoz-vagy-oszlop-torlese-tablabol-rails-ben
 title: Oszlop hozzáadása táblához vagy oszlop törlése táblából Rails-ben
 wordpress_id: 175

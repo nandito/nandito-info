@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2012-04-23 19:05:35+00:00
 layout: post
-link: https://nandito.info/2012/04/23/epulet-falazatanak-eps-szigetelese/
+link: https://nandito.hu/2012/04/23/epulet-falazatanak-eps-szigetelese/
 slug: epulet-falazatanak-eps-szigetelese
 title: Épület falazatának EPS szigetelése
 wordpress_id: 124

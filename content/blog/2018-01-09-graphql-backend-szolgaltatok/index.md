@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2018-01-09 05:51:07+00:00
 layout: post
-link: https://nandito.info/2018/01/09/graphql-backend-szolgaltatok/
+link: https://nandito.hu/2018/01/09/graphql-backend-szolgaltatok/
 slug: graphql-backend-szolgaltatok
 title: GraphQL backend szolgáltatók
 wordpress_id: 278

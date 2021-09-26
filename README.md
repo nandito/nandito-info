@@ -1,6 +1,6 @@
-# Nandito.info
+# Nandito.hu
 
-This is the repository of my personal blog that is available on https://nandito.info.
+This is the repository of my personal blog that is available on https://nandito.hu.
 
 ## Technical details
 

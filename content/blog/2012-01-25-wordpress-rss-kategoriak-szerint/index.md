@@ -3,7 +3,7 @@ author: info_plhg3qe0
 comments: true
 date: 2012-01-25 22:24:29+00:00
 layout: post
-link: https://nandito.info/2012/01/25/wordpress-rss-kategoriak-szerint/
+link: https://nandito.hu/2012/01/25/wordpress-rss-kategoriak-szerint/
 slug: wordpress-rss-kategoriak-szerint
 title: WordPress RSS kategóriák szerint
 wordpress_id: 39
