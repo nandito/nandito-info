@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const StaticPageTemplate = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -12,7 +12,7 @@ const StaticPageTemplate = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO
+      <Seo
         title={frontmatter.title}
         description={frontmatter.description || excerpt}
       />
