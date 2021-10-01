@@ -49,7 +49,7 @@ const Bio = () => {
           lover of all things countryside, life-long learner with a passion for IT and woodworking.
           {' '}
           <a
-            className="text-gray-900 no-underline border-b-2 border-teal-500 hover:text-teal-500 no-underline"
+            className="text-gray-900 no-underline border-b-2 border-green-500 hover:text-green-500 no-underline"
             href={`https://twitter.com/${social.twitter}`}
           >
               Find him on Twitter.

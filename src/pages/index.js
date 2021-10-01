@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 class BlogIndex extends React.Component {
   render() {
@@ -104,7 +104,7 @@ class BlogIndex extends React.Component {
           </div>
         )}
       >
-        <SEO title="All posts" />
+        <Seo title="All posts" />
 
         <div className="flex flex-wrap justify-between pt-12 -mx-6 relative z-20">
           {posts.map(({ node }) => {

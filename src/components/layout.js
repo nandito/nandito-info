@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from 'gatsby'
 import Header from './header'
-import '../styles/global.css'
 
 class Layout extends React.Component {
   render() {

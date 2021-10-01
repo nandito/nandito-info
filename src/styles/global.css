@@ -4,6 +4,8 @@
 
 @tailwind utilities;
 
+@tailwind colors;
+
 body {
   @apply bg-gray-200;
   @apply font-sans;
@@ -75,16 +77,16 @@ body {
   @apply text-gray-900;
   @apply no-underline;
   @apply border-b-2;
-  @apply border-teal-500;
+  @apply border-green-500;
 }
 
 .markdown-content a:hover {
-  @apply text-teal-500;
+  @apply text-green-500;
 }
 
 .markdown-content blockquote {
   @apply border-l-4;
-  @apply border-teal-500;
+  @apply border-green-500;
   @apply italic;
   @apply my-8;
   @apply pl-8;
