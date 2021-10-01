@@ -57,7 +57,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-ackee-tracker",
       options: {
-        domainId: "73872517-ca91-41e6-886c-650c292d4412",
+        domainId: "e8310561-7334-49b3-9fa6-f133a71d9071",
         server: "https://ackee.nandito.hu",
         ignoreLocalhost: true,
         detailed: false,
