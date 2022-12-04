@@ -80,11 +80,26 @@ module.exports = {
         `,
         feeds: [
           {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(({ node }) => {
+                console.log({
+                  keys: Object.keys(node),
+                  frontematter: node.frontmatter,
+                })
+                return Object.assign({}, node.frontmatter, {
+                  description: node.excerpt,
+                  date: node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + node.fields.slug,
+                  custom_elements: [{ "content:encoded": node.html }],
+                })
+              })
+            },
             query: `
               {
                 allMarkdownRemark(
                   filter: { fields: { collection: { eq: "blog" } } },
-                  sort: { order: DESC, fields: [frontmatter___date] },
+                  sort: { frontmatter: { date: DESC } },
                 ) {
                   edges {
                     node {

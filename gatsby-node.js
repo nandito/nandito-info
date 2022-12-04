@@ -10,7 +10,7 @@ exports.createPages = async ({ graphql, actions }) => {
       {
         allMarkdownRemark(
           filter: { fields: { collection: { eq: "blog" } } }
-          sort: { fields: [frontmatter___date], order: DESC }
+          sort: { frontmatter: { date: DESC } }
           limit: 1000
         ) {
           edges {
@@ -36,8 +36,9 @@ exports.createPages = async ({ graphql, actions }) => {
   const postEdges = blogPosts.data.allMarkdownRemark.edges
 
   postEdges.forEach((post, index) => {
-    const previous = index ===postEdges.length - 1 ? null :postEdges[index + 1].node
-    const next = index === 0 ? null :postEdges[index - 1].node
+    const previous =
+      index === postEdges.length - 1 ? null : postEdges[index + 1].node
+    const next = index === 0 ? null : postEdges[index - 1].node
 
     createPage({
       path: post.node.fields.slug,
@@ -105,7 +106,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const parent = getNode(node.parent)
     createNodeField({
       node,
-      name: 'collection',
+      name: "collection",
       value: parent.sourceInstanceName,
     })
   }
