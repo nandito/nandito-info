@@ -33,7 +33,7 @@ Nowadays - as the market has expanded - basically everything is available throug
 
 This is the current list of BaaS services on the official GraphQL website:
 
-* GraphCMS
+* ~~GraphCMS~~ Hygraph
 * Graphcool
 * Reindex
 * Scaphold
@@ -54,7 +54,7 @@ The founders (and owners?) are members of this Slack group, however they don't r
 
 The url of the [Reindex BaaS](https://www.reindex.io/baas/) navigates to a 404 Not Found page. They announced in an [article](https://www.reindex.io/blog/discontinuing-backend-as-a-service/) on their blog that because of the strong competition they are discontinuing the hosted service and they make the source code available under open source license. Unfortunately I did not have the opportunity to try the Reindex BaaS.
 
-I haven't tried [GraphCMS](https://graphcms.com/) either. Those who tried recommend it: they say it has great support, an active developer team and they would like to work as BaaS provider in the future. Maybe I'll write an article about my experience if I try it in the future. Until then good luck for them!
+I haven't tried ~~[GraphCMS](https://graphcms.com/)~~ [Hygraph](https://hygraph.com/) either. Those who tried recommend it: they say it has great support, an active developer team and they would like to work as BaaS provider in the future. Maybe I'll write an article about my experience if I try it in the future. Until then good luck for them! 
 
 [Tipe](https://tipe.io/) is in _request access_ phase. Anyone can register and request an invitation to use their service. This email address collecting is a common practice, sometimes they do this when there is a business idea and they want to measure and predict how large the possible user base is. Then they can decide whether to start the business or not based on this result. I don't say that Tipe works like this but I haven't received the invitation I requested 2 months ago.
 
