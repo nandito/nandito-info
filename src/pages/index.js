@@ -218,7 +218,7 @@ export const pageQuery = graphql`
     }
     blog: allMarkdownRemark(
       filter: { fields: { collection: { eq: "blog" } } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: {date: DESC} }
     ) {
       edges {
         node {
