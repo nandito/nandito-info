@@ -15,7 +15,7 @@ tags:
 - siker kulcsa
 ---
 
-Egy [érdekes kutatás eredményét](www.businessinsider.com/12-things-killer-employees-do-before-noon-2012-8) tette közzé a [Business Insider](http://www.businessinsider.com). Több, mint 700 főt (17 és 79 év közötti embereket) kérdeztek meg az egészségi-, érzelmi állapotukról és arról, hogy melyik napszakot kedvelik. Kiderült, hogy a koránkelők vidámabbak, egészségesebbek és hatékonyabban dolgoznak, mint azok, akik "éjjeli baglyok" - vagyis az éjjel egy részét ébren töltik és inkább reggel alszanak tovább.
+Egy [érdekes kutatás eredményét](https://www.businessinsider.com/12-things-killer-employees-do-before-noon-2012-8) tette közzé a [Business Insider](https://www.businessinsider.com). Több, mint 700 főt (17 és 79 év közötti embereket) kérdeztek meg az egészségi-, érzelmi állapotukról és arról, hogy melyik napszakot kedvelik. Kiderült, hogy a koránkelők vidámabbak, egészségesebbek és hatékonyabban dolgoznak, mint azok, akik "éjjeli baglyok" - vagyis az éjjel egy részét ébren töltik és inkább reggel alszanak tovább.
 
 A felmérés eredményeként 12 pontba gyűjtötték össze azokat a tevékenységeket, amelyet a sikeres emberek reggelente elvégeznek. Ezek a következők:
 
@@ -34,4 +34,4 @@ A felmérés eredményeként 12 pontba gyűjtötték össze azokat a tevékenys�
 
 ___
 
-Az eredeti szöveg a [U.S. News & World Report](http://www.usnews.com/) tulajdona. A fenti fordítás nem teljes, a listából csak a címmondatokat emeltem át, a rövid magyarázatokat nem. Akit érdekelnek fenti pontok bővebben kifejtve, a [Business Insider](www.businessinsider.com/12-things-killer-employees-do-before-noon-2012-8) honlapján eredeti nyelven megtalálja. Az esetleges fordítási hibákért felelősséget nem vállalok.
+Az eredeti szöveg a [U.S. News & World Report](https://www.usnews.com/) tulajdona. A fenti fordítás nem teljes, a listából csak a címmondatokat emeltem át, a rövid magyarázatokat nem. Akit érdekelnek fenti pontok bővebben kifejtve, a [Business Insider](https://www.businessinsider.com/12-things-killer-employees-do-before-noon-2012-8) honlapján eredeti nyelven megtalálja. Az esetleges fordítási hibákért felelősséget nem vállalok.
